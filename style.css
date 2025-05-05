@@ -6,6 +6,24 @@
  }
 
  body{
-    font-size: 16px; /*Define o tamanho da fonte da base*/
+    font-size:1rem; /*Define o tamanho da fonte da base*/
     font-family: 'Montserrat' ;/*Define o tamanho da fonte principal do site*/
  }
+
+/*Estilo do cabeçalho*/
+
+header{
+    background-color: white;
+}
+section {
+  padding-bottom: 5rem;
+}
+.nav-link{
+   color: #cb6d43;
+   font-weight: 600;
+}
+,inicio-fundo{
+   background-image: url('img/4965007.jpg');
+   background-size: cover;
+   background-position: right;
+}
