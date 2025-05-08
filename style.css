@@ -47,5 +47,66 @@ section {
 }
 
 .botao-inicio {
-   
+   background-color: var(--laranja-claro);
+border radius:30px;
+border:none;
+width: 14em;
+/*convertido para em aumenta o tamanho da fonte por tabela*/
+height:3em;
+/*convertido para em*/
+align-content:center
+}
+.display-4{
+   text-shandow: -5px 5; var(--laranja-claro);
+   }
+   #tropicalia{
+       position: relative;
+       padding-top: 5rem;
+       margin-top: 3rem;
+       margin-bottom: 3rem;
+       background: url('img/flor.png')top right no-repeat
+       url('img/flor-esquerda.png') bottom left no-repeat
+      background-size: 180px 180px;
+      /*ajuste o tamanho comforme o necessário*/
+      {
+       #tropicalia {
+           position: relative;
+           padding-top: 5rem;
+           margin-top: 3rem;
+           margin-bottom: 3rem;
+           background: url('img/flor.png') top right no-repeat,
+           url('img/flor-esquerda.png') bottom left no-repeat;
+           background-size: 180px 180px;
+         }
+         #tropicalia.container {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           position: relative;
+           z-index: 1;
+         }
+        
+         h2 {
+           font-family: 'Lemon,'serif;
+           font-size: 2.5em;
+           font-style: normal;
+           color: var(--laranja-claro);
+         }
+      
+         #galeria {
+           background-color: #faf4f4;
+         }
+         .fundo-galeria {
+           background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+         }
+         #contato {
+           background-image: url(img/4965007.jpg);
+           background-size: cover;
+           padding: 4rem 0;
+         }
+         .formulario {
+           background-color: #ffffff;
+         }
+        background-color:#ffffff
+        
 }
